@@ -1,37 +1,35 @@
-.header {
-    display: grid;
-    grid-template-columns: 1fr 148px 1fr;
-    justify-content: space-between;
-    align-items: center;
-    margin: 92px 24px 90px;
-    padding-right: 25.48px;
-    padding-left: 26.5px;
-    color: #000;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 0.01em;
-}
+.header { 
+    display: grid; 
+    grid-template-columns: 1fr 148px 1fr; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 92px 24px; 
+    padding-right: 25.48px; 
+    padding-left: 26.52px; 
+    color: #000; 
+    font-weight: 400; 
+    font-size: 18px; 
+    letter-spacing: 0.01em; 
+} 
 
-.header__links-list {
-    display: flex;
-    flex-direction: row;
-   column-gap: 30px;
-    list-style: circle;
-}
+.header__links-list { 
+    display: flex; 
+    flex-direction: row; 
+    column-gap: 31.5px; 
+    list-style: circle; 
+} 
 
 .header__links-list-item {
-    line-height: 21px;
-    padding-left: 1px;
+    line-height: 21.13px; 
 }
 
 .header__links-list-item_no-bullit {
     list-style: none;
-    padding-left: 0;
 }
 
 .header__link {
-    text-underline-offset: 3px;
     text-decoration-skip-ink: none;
+    text-underline-offset: 4px;
 }
 
 .header__link_active {
@@ -40,16 +38,16 @@
 
 .header__logo {
     display: inline-block;
-    padding: 0px 5px;
     min-height: 105px;
+    padding: 0px 6px;
 }
 
 .header__logo-image {
-  height:100%;
+    height: 100%;
 }
 
 .address {
-    max-width: 240px;
+    max-width: 240.5px;
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0;
@@ -61,8 +59,8 @@
 
 .address-link {
     letter-spacing: 0.01em;
-    text-underline-offset: 2px;
     text-decoration-skip-ink: none;
+    text-underline-offset: 3px;
 
 }
 
@@ -71,7 +69,7 @@
     z-index: 1;
     display: flex;
     flex-direction: column;
-    min-height: 757.2px;
+    min-height: 757px;
     background-image: url("../images/cover.jpg");
     background-repeat: no-repeat;
     background-position: 51% 0%;
@@ -88,7 +86,7 @@
     background: rgba(0, 0, 0, 0.6);
 }
 
-.cover__title { 
+.cover__title {
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -127,7 +125,7 @@
 .cover__description {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;  
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 0 50px 0 78px;
@@ -156,7 +154,7 @@
     font-size: 22px;
     line-height: 25.83px;
     text-transform: inherit;
-    background-color: transparent;  
+    background-color: transparent;
 }
 
 .lots {
@@ -164,7 +162,7 @@
 }
 
 .lots__heading {
-    padding: 1px 0 26px 40px;
+    padding: 0 0 27px 40px;
     color: #000;
     font-weight: 700;
     font-size: 40px;
@@ -204,7 +202,7 @@
 
 .card-link {
     text-decoration: none;
- }
+}
 
 .card {
     display: flex;
@@ -212,22 +210,22 @@
     justify-content: space-between;
     height: 100%;
     padding: 51px 40px 48px;
-   
+
 }
 
 .card__title {
-    z-index: 1; 
+    z-index: 1;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
     text-decoration: underline;
-    text-underline-offset: 2.5px;
     text-decoration-skip-ink: none;
+    text-underline-offset: 2px;
     text-transform: uppercase;
 }
 
 .card__text {
-    z-index: 1; 
+    z-index: 1;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -259,7 +257,7 @@
 
 .about__title {
     grid-area: title;
-    padding-top: 137px;
+    padding-top: 136px;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -283,13 +281,13 @@
 }
 
 .about__text {
-    display:flex;
+    display: flex;
     flex-direction: column;
     grid-area: text;
     gap: 24px;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;  
+    line-height: 24px;
 }
 
 .footer {
@@ -310,11 +308,12 @@
 }
 
 .footer__menu-link {
-    text-underline-offset: 4px;
+    text-underline-offset: 3px;
 }
 
 .footer__menu-link_active {
     text-decoration: none;
+    text-decoration-skip-ink: none;
 }
 
 .footer__social-list {
@@ -324,7 +323,7 @@
     justify-self: end;
     gap: 48px;
     min-width: 240px;
-    list-style: none; 
+    list-style: none;
 }
 
 .footer__social-list-item {
