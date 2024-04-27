@@ -15,20 +15,23 @@
 .header__links-list {
     display: flex;
     flex-direction: row;
-   column-gap: 30.5px;
+   column-gap: 30px;
     list-style: circle;
 }
 
 .header__links-list-item {
     line-height: 21px;
+    padding-left: 1px;
 }
 
 .header__links-list-item_no-bullit {
     list-style: none;
+    padding-left: 0;
 }
 
 .header__link {
-    text-underline-offset: 4px;
+    text-underline-offset: 3px;
+    text-decoration-skip-ink: none;
 }
 
 .header__link_active {
@@ -48,7 +51,7 @@
 .address {
     max-width: 240px;
     font-style: normal;
-    line-height: 24.3px;
+    line-height: 24px;
     letter-spacing: 0;
 }
 
@@ -58,7 +61,9 @@
 
 .address-link {
     letter-spacing: 0.01em;
-    text-underline-offset: 4px;
+    text-underline-offset: 2px;
+    text-decoration-skip-ink: none;
+
 }
 
 .cover {
@@ -66,7 +71,7 @@
     z-index: 1;
     display: flex;
     flex-direction: column;
-    min-height: 757px;
+    min-height: 757.2px;
     background-image: url("../images/cover.jpg");
     background-repeat: no-repeat;
     background-position: 51% 0%;
