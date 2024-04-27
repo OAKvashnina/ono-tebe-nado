@@ -3,9 +3,9 @@
     grid-template-columns: 1fr 148px 1fr;
     justify-content: space-between;
     align-items: center;
-    margin: 92px 24px;
+    margin: 92px 24px 90px;
     padding-right: 25.48px;
-    padding-left: 26.52px;
+    padding-left: 26.5px;
     color: #000;
     font-weight: 400;
     font-size: 18px;
@@ -15,12 +15,12 @@
 .header__links-list {
     display: flex;
     flex-direction: row;
-    column-gap: 31.5px;
+   column-gap: 30.5px;
     list-style: circle;
 }
 
 .header__links-list-item {
-    line-height: 21.13px;
+    line-height: 21px;
 }
 
 .header__links-list-item_no-bullit {
@@ -37,7 +37,7 @@
 
 .header__logo {
     display: inline-block;
-    padding: 0px 6px;
+    padding: 0px 5px;
     min-height: 105px;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .address {
-    max-width: 240.52px;
+    max-width: 240px;
     font-style: normal;
     line-height: 24.3px;
     letter-spacing: 0;
@@ -54,7 +54,6 @@
 
 .header__address {
     justify-self: end;
-    line-height: 25px;
 }
 
 .address-link {
@@ -160,11 +159,11 @@
 }
 
 .lots__heading {
-    padding: 0 0 27px 40px;
+    padding: 1px 0 26px 40px;
     color: #000;
     font-weight: 700;
     font-size: 40px;
-    line-height: 46.96px;
+    line-height: 47px;
     text-transform: uppercase;
 }
 
@@ -217,6 +216,7 @@
     font-size: 22px;
     line-height: 26px;
     text-decoration: underline;
+    text-underline-offset: 2.5px;
     text-decoration-skip-ink: none;
     text-transform: uppercase;
 }
@@ -249,7 +249,16 @@
     grid-template-areas:
         "logo title"
         ". text";
-    gap: 8px 11px;
+    gap: 8px 12px;
+}
+
+.about__title {
+    grid-area: title;
+    padding-top: 137px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
 }
 
 .about__logo {
@@ -264,17 +273,8 @@
 .about__logo-image {
     background-image: url(../images/logo-white.svg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 51%;
     background-size: 148px 114px;
-}
-
-.about__title {
-    grid-area: title;
-    padding-top: 137px;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 46.96px;
-    text-transform: uppercase;
 }
 
 .about__text {
@@ -297,7 +297,6 @@
 }
 
 .footer__menu {
-    line-height: 21.13px;
     text-align: center;
 }
 
